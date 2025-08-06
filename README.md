@@ -32,5 +32,5 @@ It will load the model at ./models/model_prod.pt.
 The inference (testing) results are saved at ./log/model_prod_test.log.
 
 ## Note
-There is a note on Arxiv about the experiment:
+There is a note about the experiment:
 Transformer for Mathematical Programming.
