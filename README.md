@@ -29,8 +29,6 @@ The training and validation losses are saved at ./log/model_prod.log.
 Run ./main_func_SL.py with test_model() to test the transformer on the 8 problems. 
 It will load the model at ./models/model_prod.pt.
 
-I have submited the trained model at ./models/model_prod.pt. You can directly test the model without training.
-
 The inference (testing) results are saved at ./log/model_prod_test.log.
 
 ## Note
