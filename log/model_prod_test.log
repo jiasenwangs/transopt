@@ -1,0 +1,56 @@
+Checking Model Outputs:
+Batch 0 ==========
+Program info:
+['{"solu_bits": [32, 32], "f": "def obj1(x,parameter,np):\\n    a1=parameter[0]\\n    f = a1*np.cos(x[0])*np.sin(x[1])-x[0]/(1+x[1]**2)\\n    return f\\n", "g": "def g1(x,parameter,np):\\n    c = [-1-x[0],x[0]-2,-1-x[1],x[1]-1]\\n    return c\\n", "h": "def h1(x,parameter,np):\\n    ceq = []\\n    return ceq\\n", "func_star": "def obj1_optimal(parameter,np,obj1):\\n    assert parameter[0]==1.0\\n    x=[2,0.10578]\\n    f = obj1(x,parameter,np)\\n    return x,f\\n", "parameter": [1.0], "cons": "None", "special": "p1"}', '{"solu_bits": [32, 32, 32, 32, 32], "f": "def obj2(x,parameter,np):\\n    a1 = parameter[0]\\n    f = a1*(x[0]-1)**2+(x[0]-x[1])**2+(x[1]-x[2])**3+(x[2]-x[3])**4+(x[3]-x[4])**4\\n    return f\\n", "g": "def g2(x,parameter,np):\\n    c = [-5-x[0],x[0]-5,-5-x[1],x[1]-5,-5-x[2],x[2]-5,-5-x[3],x[3]-5,-5-x[4],x[4]-5]\\n    return c\\n", "h": "def h2(x,parameter,np):\\n    ceq = [x[0]+x[1]**2+x[2]**3-3*np.sqrt(2)-2,x[1]-x[2]**2+x[3]-2*np.sqrt(2)+2,x[0]*x[4]-2]\\n    return ceq\\n", "func_star": "def obj2_optimal(parameter,np,obj2):\\n    assert 1.0==parameter[0]\\n    x=[1.1166,1.2204,1.5378,1.9728,1.7911]\\n    f = obj2(x,parameter,np)\\n    return x,f\\n", "parameter": [1.0], "cons": "None", "special": "p2"}', '{"solu_bits": [32, 32, 32, 32, 32, 32], "f": "def obj3(x,parameter,np):\\n    a1 = parameter[0]\\n    f = -a1*x[3]\\n    return f\\n", "g": "def g3(x,parameter,np):\\n    c = [x[4]**0.5+x[5]**0.5-4,-x[0],x[0]-1,-x[1],x[1]-1,-x[2],x[2]-1,-x[3],x[3]-1,-x[4],x[4]-16,-x[5],x[5]-16]\\n    return c\\n", "h": "def h3(x,parameter,np):\\n    k1 = 0.09755988\\n    k2 = 0.99*k1\\n    k3 = 0.0391908\\n    k4 = 0.9*k3\\n    ceq = [x[0]+k1*x[0]*x[4]-1,x[1]-x[0]+k2*x[1]*x[5],x[2]+x[0]+k3*x[2]*x[4]-1,x[3]-x[2]+x[1]-x[0]+k4*x[3]*x[5]]\\n    return ceq\\n", "func_star": "def obj3_optimal(parameter,np,obj3):\\n    assert 1.0==parameter[0]\\n    x=[0.772,0.517,0.204,0.388,3.036,5.097]\\n    f = obj3(x,parameter,np)\\n    return x,f\\n", "parameter": [1.0], "cons": "None", "special": "p3"}', '{"solu_bits": [32, 32, 32, 32, 32], "f": "def obj4(x,parameter,np):\\n    a1 = parameter[0]\\n    n=5\\n    s1 = [x[i]**2 for i in range(n)]\\n    s1 = np.sqrt(sum(s1)/n)\\n    s2 = [np.cos(2*np.pi*x[i]) for i in range(n)]\\n    s2 = sum(s2)/n\\n    f=-20.0*a1*np.exp(-0.2*s1)-np.exp(s2)+20+np.exp(1)\\n    return f\\n", "g": "def g4(x,parameter,np):\\n    c=[]\\n    n=5\\n    for i in range(n):\\n        c.extend((-x[i],x[i]-2.5))\\n    return c\\n", "h": "def h4(x,parameter,np):\\n    ceq = []\\n    return ceq\\n", "func_star": "def obj4_optimal(parameter,np,obj4):\\n    assert 1.0==parameter[0]\\n    n=5\\n    x=[0.0 for i in range(n)]\\n    f = obj4(x,parameter,np)\\n    return x,f\\n", "parameter": [1.0], "cons": "None", "special": "p4"}', '{"solu_bits": [32, 32, 1, 1, 1], "f": "def obj5(x,parameter,np):\\n    a1 = parameter[0]\\n    x1 = x[0]\\n    x2 = x[1]\\n    y1 = x[2]\\n    y2 = x[3]\\n    y3 = x[4]\\n    f=a1*2*x1+3*x2+1.5*y1+2*y2-0.5*y3\\n    return f\\n", "g": "def g5(x,parameter,np):\\n    x1 = x[0]\\n    x2 = x[1]\\n    y1 = x[2]\\n    y2 = x[3]\\n    y3 = x[4]\\n    c=[x1+y1-1.6,1.333*x2+y2-3,-y1-y2+y3,-x1,-x2]\\n    return c\\n", "h": "def h5(x,parameter,np):\\n    x1 = x[0]\\n    x2 = x[1]\\n    y1 = x[2]\\n    y2 = x[3]\\n    ceq = [x1**2+y1-1.25,x2**1.5+1.5*y2-3]\\n    return ceq\\n", "func_star": "def obj5_optimal(parameter,np,obj5):\\n    assert 1.0==parameter[0]\\n    x=[1.12,1.31,0,1,1]\\n    f = obj5(x,parameter,np)\\n    return x,f\\n", "parameter": [1.0], "cons": "None", "special": "p5"}', '{"solu_bits": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1], "f": "def obj6(x,parameter,np):\\n    a1 = parameter[0]\\n    Q=[[-1,-2,2,8,-5,1,-4,0,0,8],\\n       [-2,2,0,-5,4,-4,-4,-5,0,-5],\\n       [2,0,2,-3,7,0,-3,7,5,0],\\n       [8,-5,-3,-1,-3,-1,7,1,7,2],\\n       [-5,4,7,-3,1,0,-4,2,4,-2],\\n       [1,-4,0,-1,0,1,9,5,2,0],\\n       [-4,-4,-3,7,-4,9,3,1,2,0],\\n       [0,-5,7,1,2,5,1,0,-3,-2],\\n       [0,0,5,7,4,2,2,-3,2,3],\\n       [8,-5,0,2,-2,0,0,-2,3,3]]\\n    Q=np.matrix(Q)\\n    x=np.matrix([x])\\n    f=a1*x*Q*x.T\\n    f=f[0,0]\\n    return f\\n", "g": "def g6(x,parameter,np):\\n    c=[]\\n    return c\\n", "h": "def h6(x,parameter,np):\\n    ceq = []\\n    return ceq\\n", "func_star": "def obj6_optimal(parameter,np,obj6):\\n    assert 1.0==parameter[0]\\n    x=[1,1,0,0,1,0,1,1,0,0]\\n    f = obj6(x,parameter,np)\\n    return x,f\\n", "parameter": [1.0], "cons": "None", "special": "p6"}', '{"solu_bits": [32], "f": "def obj7(x,parameter,np):\\n    a1=parameter[0]\\n    f = a1*x[0]**4-3*x[0]**3-1.5*x[0]**2+10*x[0]\\n    return f\\n", "g": "def g7(x,parameter,np):\\n    c = [-5-x[0],x[0]-5]\\n    return c\\n", "h": "def h7(x,parameter,np):\\n    ceq = []\\n    return ceq\\n", "func_star": "def obj7_optimal(parameter,np,obj7):\\n    assert parameter[0]==1.0\\n    x=[-1]\\n    f = obj7(x,parameter,np)\\n    return x,f\\n", "parameter": [1.0], "cons": "None", "special": "p7"}', '{"solu_bits": [32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32], "f": "def obj8(x,parameter,np):\\n    a1 = parameter[0]\\n    n=100\\n    s1 = [x[i]**2 for i in range(n)]\\n    s1 = np.sqrt(sum(s1)/n)\\n    s2 = [np.cos(2*np.pi*x[i]) for i in range(n)]\\n    s2 = sum(s2)/n\\n    f=-20.0*a1*np.exp(-0.2*s1)-np.exp(s2)+20+np.exp(1)\\n    return f\\n", "g": "def g8(x,parameter,np):\\n    c=[]\\n    n=100\\n    for i in range(n):\\n        c.extend((-x[i],x[i]-2.5))\\n    return c\\n", "h": "def h8(x,parameter,np):\\n    ceq = []\\n    return ceq\\n", "func_star": "def obj8_optimal(parameter,np,obj8):\\n    assert 1.0==parameter[0]\\n    n=100\\n    x=[0.0 for i in range(n)]\\n    f = obj8(x,parameter,np)\\n    return x,f\\n", "parameter": [1.0], "cons": "None", "special": "p8"}']
+Model output txts:
+['[2.0, 0.11470011439000349]', '[1.1115980883554312, 1.218831433177214, 1.539050306708335, 1.9781908528462992, 1.7991810888798528]', '[0.7717242192034419, 0.516976390621079, 0.20403157507679152, 0.388811654788413, 3.031980818413342, 5.101913614894]', '[0.0, 0.0, 0.0, 0.0, 0.0]', '[1.118033988749895, 1.3103706971016593, 0, 1, 1]', '[1, 1, 0, 0, 1, 0, 1, 1, 0, 0]', '[-0.9876598638818813]', '[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]']
+Ground truth objective function value:
+-2.0218067833370204
+Ground truth program solution:
+[2, 0.10578]
+Model output program solution:
+[2.0, 0.1147001143900035]
+Ground truth objective function value:
+0.029290331562712067
+Ground truth program solution:
+[1.1166, 1.2204, 1.5378, 1.9728, 1.7911]
+Model output program solution:
+[1.1115980883554313, 1.218831433177214, 1.539050306708335, 1.9781908528462993, 1.7991810888798527]
+Ground truth objective function value:
+-0.388
+Ground truth program solution:
+[0.772, 0.517, 0.204, 0.388, 3.036, 5.097]
+Model output program solution:
+[0.7717242192034419, 0.516976390621079, 0.2040315750767915, 0.388811654788413, 3.031980818413342, 5.101913614894]
+Ground truth objective function value:
+4.440892098500626e-16
+Ground truth program solution:
+[0.0, 0.0, 0.0, 0.0, 0.0]
+Model output program solution:
+[0.0, 0.0, 0.0, 0.0, 0.0]
+Ground truth objective function value:
+7.67
+Ground truth program solution:
+[1.12, 1.31, 0, 1, 1]
+Model output program solution:
+[1.118033988749895, 1.3103706971016593, 0, 1, 1]
+Ground truth objective function value:
+-29.0
+Ground truth program solution:
+[1, 1, 0, 0, 1, 0, 1, 1, 0, 0]
+Model output program solution:
+[1, 1, 0, 0, 1, 0, 1, 1, 0, 0]
+Ground truth objective function value:
+-7.5
+Ground truth program solution:
+[-1]
+Model output program solution:
+[-0.9876598638818813]
+Ground truth objective function value:
+4.440892098500626e-16
+Ground truth program solution:
+[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Model output program solution:
+[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Mean absolute error in the inference is: 0.0029006645563414866
+Elapsed time for inference testing in seconds: 7.778230667114258

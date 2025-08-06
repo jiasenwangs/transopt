@@ -1,0 +1,339 @@
+==================================================
+THE EXPERIMENT LOG IS SAVED IN: log/model_prod.log
+==================================================
+Number of GPUs detected: 4
+Spawning training processes ...
+Number of parameters of the transformer: 19756917
+Starts training from: . Space means from scratch.
+Epoch 0, average training loss: 1.2530094385147095 
+Epoch 0, average validation gap: 0.35365989804267883 
+Elapsed time for epoch 0 in seconds: 809.50186419487
+Epoch=0, best model is updated and saved at: models/model_prod.pt
+Epoch 1, average training loss: 0.33500587940216064 
+Epoch 1, average validation gap: 0.3250337541103363 
+Elapsed time for epoch 1 in seconds: 798.2402236461639
+Epoch=1, best model is updated and saved at: models/model_prod.pt
+Epoch 2, average training loss: 0.31977295875549316 
+Epoch 2, average validation gap: 0.31469279527664185 
+Elapsed time for epoch 2 in seconds: 797.1310269832611
+Epoch=2, best model is updated and saved at: models/model_prod.pt
+Epoch 3, average training loss: 0.3119966387748718 
+Epoch 3, average validation gap: 0.3087742328643799 
+Elapsed time for epoch 3 in seconds: 799.5044159889221
+Epoch=3, best model is updated and saved at: models/model_prod.pt
+Epoch 4, average training loss: 0.30741065740585327 
+Epoch 4, average validation gap: 0.30428624153137207 
+Elapsed time for epoch 4 in seconds: 795.6550109386444
+Epoch=4, best model is updated and saved at: models/model_prod.pt
+Epoch 5, average training loss: 0.3023824989795685 
+Epoch 5, average validation gap: 0.30147477984428406 
+Elapsed time for epoch 5 in seconds: 803.1972846984863
+Epoch=5, best model is updated and saved at: models/model_prod.pt
+Epoch 6, average training loss: 0.2992759048938751 
+Epoch 6, average validation gap: 0.2989891469478607 
+Elapsed time for epoch 6 in seconds: 793.8316340446472
+Epoch=6, best model is updated and saved at: models/model_prod.pt
+Epoch 7, average training loss: 0.296227365732193 
+Epoch 7, average validation gap: 0.2961164116859436 
+Elapsed time for epoch 7 in seconds: 797.944372177124
+Epoch=7, best model is updated and saved at: models/model_prod.pt
+Epoch 8, average training loss: 0.2937794029712677 
+Epoch 8, average validation gap: 0.294587641954422 
+Elapsed time for epoch 8 in seconds: 795.9536938667297
+Epoch=8, best model is updated and saved at: models/model_prod.pt
+Epoch 9, average training loss: 0.2919487953186035 
+Epoch 9, average validation gap: 0.2934504449367523 
+Elapsed time for epoch 9 in seconds: 794.3515725135803
+Epoch=9, best model is updated and saved at: models/model_prod.pt
+Epoch 10, average training loss: 0.2904357314109802 
+Epoch 10, average validation gap: 0.29224786162376404 
+Elapsed time for epoch 10 in seconds: 792.6792421340942
+Epoch=10, best model is updated and saved at: models/model_prod.pt
+Epoch 11, average training loss: 0.28899523615837097 
+Epoch 11, average validation gap: 0.291991263628006 
+Elapsed time for epoch 11 in seconds: 795.6523530483246
+Epoch=11, best model is updated and saved at: models/model_prod.pt
+Epoch 12, average training loss: 0.2880041003227234 
+Epoch 12, average validation gap: 0.29064545035362244 
+Elapsed time for epoch 12 in seconds: 788.7356958389282
+Epoch=12, best model is updated and saved at: models/model_prod.pt
+Epoch 13, average training loss: 0.28699156641960144 
+Epoch 13, average validation gap: 0.290230393409729 
+Elapsed time for epoch 13 in seconds: 794.5551278591156
+Epoch=13, best model is updated and saved at: models/model_prod.pt
+Epoch 14, average training loss: 0.2870365083217621 
+Epoch 14, average validation gap: 0.29020413756370544 
+Elapsed time for epoch 14 in seconds: 797.181941986084
+Epoch=14, best model is updated and saved at: models/model_prod.pt
+Epoch 15, average training loss: 0.2844829261302948 
+Epoch 15, average validation gap: 0.2885541617870331 
+Elapsed time for epoch 15 in seconds: 795.8318884372711
+Epoch=15, best model is updated and saved at: models/model_prod.pt
+Epoch 16, average training loss: 0.2839561998844147 
+Epoch 16, average validation gap: 0.28817006945610046 
+Elapsed time for epoch 16 in seconds: 790.9388253688812
+Epoch=16, best model is updated and saved at: models/model_prod.pt
+Epoch 17, average training loss: 0.28340283036231995 
+Epoch 17, average validation gap: 0.28748443722724915 
+Elapsed time for epoch 17 in seconds: 796.6575191020966
+Epoch=17, best model is updated and saved at: models/model_prod.pt
+Epoch 18, average training loss: 0.2823306918144226 
+Epoch 18, average validation gap: 0.287574827671051 
+Elapsed time for epoch 18 in seconds: 796.9511666297913
+Epoch 19, average training loss: 0.28177976608276367 
+Epoch 19, average validation gap: 0.2868436276912689 
+Elapsed time for epoch 19 in seconds: 796.4267418384552
+Epoch=19, best model is updated and saved at: models/model_prod.pt
+Epoch 20, average training loss: 0.2810762822628021 
+Epoch 20, average validation gap: 0.2867303788661957 
+Elapsed time for epoch 20 in seconds: 793.1895101070404
+Epoch=20, best model is updated and saved at: models/model_prod.pt
+Epoch 21, average training loss: 0.2804605960845947 
+Epoch 21, average validation gap: 0.28629425168037415 
+Elapsed time for epoch 21 in seconds: 791.4202270507812
+Epoch=21, best model is updated and saved at: models/model_prod.pt
+Epoch 22, average training loss: 0.2796383798122406 
+Epoch 22, average validation gap: 0.28617122769355774 
+Elapsed time for epoch 22 in seconds: 794.0918328762054
+Epoch=22, best model is updated and saved at: models/model_prod.pt
+Epoch 23, average training loss: 0.2790331542491913 
+Epoch 23, average validation gap: 0.2859494388103485 
+Elapsed time for epoch 23 in seconds: 791.6699676513672
+Epoch=23, best model is updated and saved at: models/model_prod.pt
+Epoch 24, average training loss: 0.27839896082878113 
+Epoch 24, average validation gap: 0.28507569432258606 
+Elapsed time for epoch 24 in seconds: 794.6416432857513
+Epoch=24, best model is updated and saved at: models/model_prod.pt
+Epoch 25, average training loss: 0.27782514691352844 
+Epoch 25, average validation gap: 0.2857216000556946 
+Elapsed time for epoch 25 in seconds: 792.5129535198212
+Epoch 26, average training loss: 0.27721309661865234 
+Epoch 26, average validation gap: 0.2847016751766205 
+Elapsed time for epoch 26 in seconds: 792.959367275238
+Epoch=26, best model is updated and saved at: models/model_prod.pt
+Epoch 27, average training loss: 0.27665451169013977 
+Epoch 27, average validation gap: 0.28488752245903015 
+Elapsed time for epoch 27 in seconds: 794.3407192230225
+Epoch 28, average training loss: 0.2760925590991974 
+Epoch 28, average validation gap: 0.2843359410762787 
+Elapsed time for epoch 28 in seconds: 794.712236404419
+Epoch=28, best model is updated and saved at: models/model_prod.pt
+Epoch 29, average training loss: 0.2760145962238312 
+Epoch 29, average validation gap: 0.2836911678314209 
+Elapsed time for epoch 29 in seconds: 793.6376352310181
+Epoch=29, best model is updated and saved at: models/model_prod.pt
+Epoch 30, average training loss: 0.2747390866279602 
+Epoch 30, average validation gap: 0.2838388979434967 
+Elapsed time for epoch 30 in seconds: 789.8500277996063
+Epoch 31, average training loss: 0.2745770215988159 
+Epoch 31, average validation gap: 0.284189909696579 
+Elapsed time for epoch 31 in seconds: 790.4437172412872
+Epoch 32, average training loss: 0.27435246109962463 
+Epoch 32, average validation gap: 0.28410038352012634 
+Elapsed time for epoch 32 in seconds: 792.3395819664001
+Epoch 33, average training loss: 0.27379128336906433 
+Epoch 33, average validation gap: 0.2837758958339691 
+Elapsed time for epoch 33 in seconds: 795.9962239265442
+Epoch 34, average training loss: 0.273349404335022 
+Epoch 34, average validation gap: 0.28363466262817383 
+Elapsed time for epoch 34 in seconds: 792.0838537216187
+Epoch=34, best model is updated and saved at: models/model_prod.pt
+Epoch 35, average training loss: 0.2729411721229553 
+Epoch 35, average validation gap: 0.2835884094238281 
+Elapsed time for epoch 35 in seconds: 792.4569799900055
+Epoch=35, best model is updated and saved at: models/model_prod.pt
+Epoch 36, average training loss: 0.2725972533226013 
+Epoch 36, average validation gap: 0.28363901376724243 
+Elapsed time for epoch 36 in seconds: 792.9903874397278
+Epoch 37, average training loss: 0.27220970392227173 
+Epoch 37, average validation gap: 0.28340277075767517 
+Elapsed time for epoch 37 in seconds: 794.4151425361633
+Epoch=37, best model is updated and saved at: models/model_prod.pt
+Epoch 38, average training loss: 0.2718128561973572 
+Epoch 38, average validation gap: 0.2833837568759918 
+Elapsed time for epoch 38 in seconds: 793.3357753753662
+Epoch=38, best model is updated and saved at: models/model_prod.pt
+Epoch 39, average training loss: 0.27144551277160645 
+Epoch 39, average validation gap: 0.2840099334716797 
+Elapsed time for epoch 39 in seconds: 797.0252618789673
+Epoch 40, average training loss: 0.27288728952407837 
+Epoch 40, average validation gap: 0.2831648886203766 
+Elapsed time for epoch 40 in seconds: 792.4410116672516
+Epoch=40, best model is updated and saved at: models/model_prod.pt
+Epoch 41, average training loss: 0.269987553358078 
+Epoch 41, average validation gap: 0.283307284116745 
+Elapsed time for epoch 41 in seconds: 795.1610243320465
+Epoch 42, average training loss: 0.27015092968940735 
+Epoch 42, average validation gap: 0.28339359164237976 
+Elapsed time for epoch 42 in seconds: 796.4559810161591
+Epoch 43, average training loss: 0.270081102848053 
+Epoch 43, average validation gap: 0.28346341848373413 
+Elapsed time for epoch 43 in seconds: 796.2099916934967
+Epoch 44, average training loss: 0.2697405517101288 
+Epoch 44, average validation gap: 0.2834395170211792 
+Elapsed time for epoch 44 in seconds: 794.4082734584808
+Epoch 45, average training loss: 0.2693847417831421 
+Epoch 45, average validation gap: 0.28407466411590576 
+Elapsed time for epoch 45 in seconds: 793.0038781166077
+Epoch 46, average training loss: 0.27002277970314026 
+Epoch 46, average validation gap: 0.28336769342422485 
+Elapsed time for epoch 46 in seconds: 793.5882625579834
+Epoch 47, average training loss: 0.2681344747543335 
+Epoch 47, average validation gap: 0.2836165428161621 
+Elapsed time for epoch 47 in seconds: 791.5971839427948
+Epoch 48, average training loss: 0.2683042287826538 
+Epoch 48, average validation gap: 0.28403764963150024 
+Elapsed time for epoch 48 in seconds: 796.2999377250671
+Epoch 49, average training loss: 0.2681962549686432 
+Epoch 49, average validation gap: 0.2833985686302185 
+Elapsed time for epoch 49 in seconds: 791.204498052597
+Epoch 50, average training loss: 0.2679609954357147 
+Epoch 50, average validation gap: 0.28385764360427856 
+Elapsed time for epoch 50 in seconds: 792.6718485355377
+Epoch 51, average training loss: 0.2676964998245239 
+Epoch 51, average validation gap: 0.2833220362663269 
+Elapsed time for epoch 51 in seconds: 794.5229983329773
+Epoch 52, average training loss: 0.26719895005226135 
+Epoch 52, average validation gap: 0.2832651138305664 
+Elapsed time for epoch 52 in seconds: 790.6166605949402
+Epoch 53, average training loss: 0.26712334156036377 
+Epoch 53, average validation gap: 0.2843458652496338 
+Elapsed time for epoch 53 in seconds: 795.8444850444794
+Epoch 54, average training loss: 0.2669997811317444 
+Epoch 54, average validation gap: 0.284267783164978 
+Elapsed time for epoch 54 in seconds: 792.5498194694519
+Epoch 55, average training loss: 0.26629990339279175 
+Epoch 55, average validation gap: 0.2841246724128723 
+Elapsed time for epoch 55 in seconds: 794.458503484726
+Epoch 56, average training loss: 0.26625367999076843 
+Epoch 56, average validation gap: 0.28408634662628174 
+Elapsed time for epoch 56 in seconds: 794.3129553794861
+Epoch 57, average training loss: 0.26595577597618103 
+Epoch 57, average validation gap: 0.284254789352417 
+Elapsed time for epoch 57 in seconds: 796.4217283725739
+Epoch 58, average training loss: 0.2658741772174835 
+Epoch 58, average validation gap: 0.28439056873321533 
+Elapsed time for epoch 58 in seconds: 792.0657207965851
+Epoch 59, average training loss: 0.2655167281627655 
+Epoch 59, average validation gap: 0.2843876779079437 
+Elapsed time for epoch 59 in seconds: 791.4900243282318
+Epoch 60, average training loss: 0.26535558700561523 
+Epoch 60, average validation gap: 0.2843579649925232 
+Elapsed time for epoch 60 in seconds: 793.0277171134949
+Epoch 61, average training loss: 0.265382319688797 
+Epoch 61, average validation gap: 0.2841646075248718 
+Elapsed time for epoch 61 in seconds: 795.9629657268524
+Epoch 62, average training loss: 0.2643466293811798 
+Epoch 62, average validation gap: 0.2842544913291931 
+Elapsed time for epoch 62 in seconds: 792.8417603969574
+Epoch 63, average training loss: 0.26451560854911804 
+Epoch 63, average validation gap: 0.28472453355789185 
+Elapsed time for epoch 63 in seconds: 793.3043236732483
+Epoch 64, average training loss: 0.2643982172012329 
+Epoch 64, average validation gap: 0.2846723198890686 
+Elapsed time for epoch 64 in seconds: 793.080352306366
+Epoch 65, average training loss: 0.2642045319080353 
+Epoch 65, average validation gap: 0.2840839624404907 
+Elapsed time for epoch 65 in seconds: 793.6147434711456
+Epoch 66, average training loss: 0.2639533579349518 
+Epoch 66, average validation gap: 0.2851749658584595 
+Elapsed time for epoch 66 in seconds: 790.5353734493256
+Epoch 67, average training loss: 0.2639658749103546 
+Epoch 67, average validation gap: 0.28434932231903076 
+Elapsed time for epoch 67 in seconds: 795.6612849235535
+Epoch 68, average training loss: 0.2631271183490753 
+Epoch 68, average validation gap: 0.28443288803100586 
+Elapsed time for epoch 68 in seconds: 793.167576789856
+Epoch 69, average training loss: 0.26327836513519287 
+Epoch 69, average validation gap: 0.28515079617500305 
+Elapsed time for epoch 69 in seconds: 792.8477954864502
+Epoch 70, average training loss: 0.2631140351295471 
+Epoch 70, average validation gap: 0.28546056151390076 
+Elapsed time for epoch 70 in seconds: 791.254086971283
+Epoch 71, average training loss: 0.26292601227760315 
+Epoch 71, average validation gap: 0.2847687900066376 
+Elapsed time for epoch 71 in seconds: 796.6561193466187
+Epoch 72, average training loss: 0.26268458366394043 
+Epoch 72, average validation gap: 0.2853478193283081 
+Elapsed time for epoch 72 in seconds: 793.6010925769806
+Epoch 73, average training loss: 0.2625216841697693 
+Epoch 73, average validation gap: 0.2844783365726471 
+Elapsed time for epoch 73 in seconds: 792.2064681053162
+Epoch 74, average training loss: 0.26239314675331116 
+Epoch 74, average validation gap: 0.2848317623138428 
+Elapsed time for epoch 74 in seconds: 788.5549120903015
+Epoch 75, average training loss: 0.26221388578414917 
+Epoch 75, average validation gap: 0.2861391305923462 
+Elapsed time for epoch 75 in seconds: 795.4775831699371
+Epoch 76, average training loss: 0.26197996735572815 
+Epoch 76, average validation gap: 0.28496381640434265 
+Elapsed time for epoch 76 in seconds: 797.4047808647156
+Epoch 77, average training loss: 0.26183629035949707 
+Epoch 77, average validation gap: 0.2854292094707489 
+Elapsed time for epoch 77 in seconds: 797.515275478363
+Epoch 78, average training loss: 0.26146551966667175 
+Epoch 78, average validation gap: 0.28584298491477966 
+Elapsed time for epoch 78 in seconds: 793.9499664306641
+Epoch 79, average training loss: 0.2611926794052124 
+Epoch 79, average validation gap: 0.28575533628463745 
+Elapsed time for epoch 79 in seconds: 793.288941860199
+Epoch 80, average training loss: 0.2611740231513977 
+Epoch 80, average validation gap: 0.28550592064857483 
+Elapsed time for epoch 80 in seconds: 792.3427858352661
+Epoch 81, average training loss: 0.26119980216026306 
+Epoch 81, average validation gap: 0.2865724563598633 
+Elapsed time for epoch 81 in seconds: 793.7517826557159
+Epoch 82, average training loss: 0.2609226107597351 
+Epoch 82, average validation gap: 0.28522059321403503 
+Elapsed time for epoch 82 in seconds: 796.7893581390381
+Epoch 83, average training loss: 0.26076585054397583 
+Epoch 83, average validation gap: 0.2856285870075226 
+Elapsed time for epoch 83 in seconds: 795.3016586303711
+Epoch 84, average training loss: 0.2606043219566345 
+Epoch 84, average validation gap: 0.28557288646698 
+Elapsed time for epoch 84 in seconds: 797.08589220047
+Epoch 85, average training loss: 0.2609443962574005 
+Epoch 85, average validation gap: 0.2867162227630615 
+Elapsed time for epoch 85 in seconds: 791.9992074966431
+Epoch 86, average training loss: 0.2597988247871399 
+Epoch 86, average validation gap: 0.28631487488746643 
+Elapsed time for epoch 86 in seconds: 792.9934496879578
+Epoch 87, average training loss: 0.2600669264793396 
+Epoch 87, average validation gap: 0.28672704100608826 
+Elapsed time for epoch 87 in seconds: 793.1044538021088
+Epoch 88, average training loss: 0.26005303859710693 
+Epoch 88, average validation gap: 0.28656187653541565 
+Elapsed time for epoch 88 in seconds: 794.078102350235
+Epoch 89, average training loss: 0.2599116265773773 
+Epoch 89, average validation gap: 0.2860962450504303 
+Elapsed time for epoch 89 in seconds: 789.44367146492
+Epoch 90, average training loss: 0.25973036885261536 
+Epoch 90, average validation gap: 0.2862401008605957 
+Elapsed time for epoch 90 in seconds: 791.7778239250183
+Epoch 91, average training loss: 0.25969502329826355 
+Epoch 91, average validation gap: 0.2865181267261505 
+Elapsed time for epoch 91 in seconds: 790.1364119052887
+Epoch 92, average training loss: 0.2595961093902588 
+Epoch 92, average validation gap: 0.28641507029533386 
+Elapsed time for epoch 92 in seconds: 797.0575861930847
+Epoch 93, average training loss: 0.2588256001472473 
+Epoch 93, average validation gap: 0.2874852120876312 
+Elapsed time for epoch 93 in seconds: 793.3949749469757
+Epoch 94, average training loss: 0.2590656876564026 
+Epoch 94, average validation gap: 0.28588545322418213 
+Elapsed time for epoch 94 in seconds: 796.604523897171
+Epoch 95, average training loss: 0.25905728340148926 
+Epoch 95, average validation gap: 0.28714609146118164 
+Elapsed time for epoch 95 in seconds: 796.3062698841095
+Epoch 96, average training loss: 0.2589204013347626 
+Epoch 96, average validation gap: 0.28699707984924316 
+Elapsed time for epoch 96 in seconds: 794.1095368862152
+Epoch 97, average training loss: 0.25884732604026794 
+Epoch 97, average validation gap: 0.28706496953964233 
+Elapsed time for epoch 97 in seconds: 796.7175011634827
+Epoch 98, average training loss: 0.25870659947395325 
+Epoch 98, average validation gap: 0.28663864731788635 
+Elapsed time for epoch 98 in seconds: 792.2450273036957
+Epoch 99, average training loss: 0.25859394669532776 
+Epoch 99, average validation gap: 0.2875438332557678 
+Elapsed time for epoch 99 in seconds: 792.4008910655975
