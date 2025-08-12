@@ -36,10 +36,11 @@ There is a note about the experiment:
 [Transformer for Mathematical Programming](./note/transopt2025.pdf).
 
 To cite the note:
-
+```
 @misc{jiasen2025transopt,
       title={Transformer for Mathematical Programming}, 
       author={Jiasen Wang},
       year={2025},
       url={https://github.com/jiasenwangs/transopt/blob/main/note/transopt2025.pdf}, 
 }
+```
