@@ -2,7 +2,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
 
-This code is for an experiment about using transformer as universal optimizer for mathematical programs.
+This code is for an experiment about using transformer as universal optimizer for solving mathematical programs (optimization problems).
 
 ## Environment
 
