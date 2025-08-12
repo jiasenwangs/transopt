@@ -41,5 +41,5 @@ To cite the note:
       title={Transformer for Mathematical Programming}, 
       author={Jiasen Wang},
       year={2025},
-      url={./note/transopt2025.pdf}, 
+      url={https://github.com/jiasenwangs/transopt/blob/main/note/transopt2025.pdf}, 
 }
