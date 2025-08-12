@@ -34,3 +34,12 @@ The inference (testing) results are saved at ./log/model_prod_test.log.
 ## Note
 There is a note about the experiment:
 [Transformer for Mathematical Programming](./note/transopt2025.pdf).
+
+To cite the note:
+
+@misc{jiasen2025transopt,
+      title={Transformer for Mathematical Programming}, 
+      author={Jiasen Wang},
+      year={2025},
+      url={./note/transopt2025.pdf}, 
+}
