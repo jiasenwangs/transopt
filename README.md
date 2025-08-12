@@ -33,4 +33,4 @@ The inference (testing) results are saved at ./log/model_prod_test.log.
 
 ## Note
 There is a note about the experiment:
-Transformer for Mathematical Programming.
+[Transformer for Mathematical Programming](./note/transopt2025.pdf).
